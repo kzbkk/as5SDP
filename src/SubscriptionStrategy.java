@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class SubscriptionStrategy {
+public interface SubscriptionStrategy {
+    double calculatePrice(Subscription subscription);
 }
